@@ -30,7 +30,7 @@ const AboutComponent = () => {
 
                             <div className="resumeBtn">
                                 <a className="buttons" href="images/Resume/Resume (2).pdf"
-                                    download="images/Resume/Resume (2).pdf"><FaFile /> Download
+                                    download="images/Resume/Resume (1).pdf"><FaFile /> Download
                                     CV</a>
                             </div>
                         </div>
