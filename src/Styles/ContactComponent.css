@@ -1,0 +1,146 @@
+#connect {
+    background-color: rgb(214, 214, 214);
+    padding: 6rem 0;
+    border-radius: 30% 0;
+}
+
+.connectTitle {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.connectTitle p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #363636;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.contactDetailsContainer {
+    height: 18rem;
+    width: 20rem;
+    background-color: #023d70;
+    color: #fff;
+    box-shadow: 0 0 15px;
+    padding: 50px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+
+.contactDetails {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.contactDetailsIcon svg {
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.contactInfo h3 {
+    font-size: 1.5rem;
+}
+
+.contactInfo p {
+    font-size: 1.2rem;
+}
+
+
+.contactDetailsIcon svg:hover {
+    transform: rotate3d(15, 10, 15, 360deg);
+    transition: 500ms ease;
+}
+
+/* Form */
+.contactForm {
+    height: 35rem;
+    width: 23rem;
+    box-shadow: 0 0 15px;
+    padding: 1rem 4rem 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+
+.input {
+    margin: 10px 0;
+}
+
+.input label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0b323d;
+}
+
+.input input {
+    height: 3rem;
+    width: 100%;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 12px;
+}
+
+.input textarea {
+    width: 100%;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 12px;
+}
+
+.submitBtn {
+    text-align: center;
+}
+
+.submitBtn button {
+    width: 50%;
+    padding: 12px 15px;
+
+}
+
+@media screen and (max-width:835px) {
+    .contactContainer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:481px) {
+
+    #connect {
+        border-radius: 0;
+    }
+
+    .contactDetailsContainer,
+    .contactForm {
+        width: 16rem;
+    }
+
+    .contactDetails {
+        gap: 20px;
+    }
+
+}
+
+@media (min-width:300px) and (max-width:376px) {
+    .contactForm {
+        width: 13rem;
+    }
+
+    .contactInfo p {
+        font-size: 1rem;
+    }
+
+    .contactDetailsContainer {
+        padding: 2rem;
+    }
+
+}

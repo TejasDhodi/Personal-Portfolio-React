@@ -1,0 +1,96 @@
+.aboutContainer {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+
+.aboutImg {
+    width: 43rem;
+    height: 28rem;
+}
+
+.aboutImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.7rem;
+    box-shadow: 0 0 1.2rem;
+}
+
+.aboutDescription p:first-child {
+    margin-top: 0.7rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(19, 10, 10);
+}
+
+.skills {
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.skills h2 {
+    font-weight: bold;
+    color: #023d70;
+    margin: 0.7rem 0;
+}
+
+.skills svg {
+    font-size: 1rem;
+    color: #023d70;
+    border: 1px solid;
+    padding: 0.3rem;
+    border-radius: 50%;
+}
+
+.skills li {
+    font-size: 1.3rem;
+    margin-left: 1.4rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    opacity: 0.8;
+
+}
+
+.resumeBtn {
+    margin: 1.2rem 0;
+}
+
+.resumeBtn .buttons {
+    border: 1px solid;
+    padding: 0.7rem 1rem;
+    color: #023d70;
+}
+
+@media screen and (max-width:835px) {
+    .aboutContainer {
+        flex-direction: column-reverse;
+    }
+
+    .aboutImg {
+        width: 30rem;
+    }
+
+    .aboutTitle {
+        text-align: center;
+    }
+
+    .aboutDescription {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 481px) {
+
+    .aboutImg {
+        width: 22rem;
+        height: 25rem;
+    }
+}

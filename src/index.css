@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Quicksand&family=Ubuntu+Mono&family=Ubuntu:wght@300;500;700&disp');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+main {
+    padding: 0 12%;
+}
+
+.titles {
+    font-size: 3.1rem;
+    font-weight: bold;
+    color: #023d70;
+}
+
+.socialIcons svg {
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 1rem 0.5rem 0;
+    cursor: pointer;
+}
+
+.socialIcons svg:hover {
+    transform: scale(1.2) rotate(360deg);
+    transition: 500ms ease;
+}
+
+.insta {
+    color: rgb(246, 58, 58);
+}
+
+.facebook {
+    color: rgb(69, 69, 245);
+}
+
+.linkedin {
+    color: rgb(17, 17, 149);
+}
+
+@media screen and (max-width:835px) {
+    main {
+        padding: 0 9%;
+    }
+}
+
+@media screen and (max-width:481px) {
+    main {
+        padding: 0 5%;
+    }
+}

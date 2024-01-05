@@ -1,0 +1,72 @@
+.heroComponent {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1616004667892-d348f7349d39?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    color: #fff;
+}
+
+.personalDetails {
+    text-align: center;
+    width: 100%;
+}
+
+/* .title {
+    margin-bottom: 1rem;
+} */
+
+.title h4 {
+    font-size: 1.7rem;
+}
+
+.title h2 {
+    font-size: 2.7rem;
+}
+
+.title h1 {
+    font-size: 3rem;
+}
+
+span {
+    color: #023d70;
+}
+
+.introActions {
+    margin: 1.5rem 0;
+}
+
+.introActions a {
+    border: 1px solid #fff;
+    padding: 0.7rem 1.2rem;
+    margin: 0 0.5rem;
+    color: #fff;
+}
+
+
+@media screen and (max-width:481px) {
+    .title h4 {
+        font-size: 1.5rem;
+    }
+
+    .title h2 {
+        font-size: 2.3rem;
+    }
+
+    .title h1 {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media (min-width:300px) and (max-width:425px) {
+    .title h2 {
+        font-size: 2.1rem;
+    }
+
+    .title h1 {
+        font-size: 2.3rem;
+    }
+}

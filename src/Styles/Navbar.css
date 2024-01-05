@@ -1,0 +1,107 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    padding: 1.2rem;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    color: #fff;
+}
+
+.navItems {
+    display: flex;
+    gap: 3.1rem;
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.navItems .navList:hover {
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #000;
+    color: #fff;
+}
+
+.hamburgerMenu {
+    display: none;
+}
+
+.showNav {
+    background-color: #00050f;
+}
+
+/* 
+.active {
+    color: #0c3a5c;
+} */
+
+@media screen and (max-width:1025px) {
+    .navbar {
+        padding: 1.2rem 0;
+    }
+
+    .navItems {
+        display: flex;
+        gap: 2.1rem;
+    }
+}
+
+@media screen and (max-width:835px) {
+    .hamburgerMenu {
+        display: block;
+    }
+
+    .bar {
+        height: 0.2rem;
+        width: 1.5rem;
+        background-color: #fff;
+        margin: 0.3rem 0;
+        position: relative;
+        z-index: 100;
+        transition: 300ms ease;
+
+    }
+
+    .navItems {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        right: 100%;
+        position: fixed;
+        background-color: #010f2a;
+        transition: 300ms ease;
+    }
+
+    .toggleNav {
+        right: 0;
+    }
+
+
+    .toggle #bar1 {
+        transform: rotateZ(45deg) translate(11px);
+        background-image: linear-gradient(to left, #010f2a 50%, #fff 50%);
+    }
+
+    .toggle #bar2 {
+        right: 25%;
+        border-radius: 0 0.7rem 0.7rem 0;
+    }
+
+    .toggle #bar3 {
+        transform: rotateZ(-45deg) translate(12px);
+        background-image: linear-gradient(to left, #010f2a 50%, #fff 50%);
+    }
+}
