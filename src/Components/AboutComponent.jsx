@@ -29,8 +29,8 @@ const AboutComponent = () => {
                             </ul>
 
                             <div className="resumeBtn">
-                                <a className="buttons" href="images/Resume/Resume (2).pdf"
-                                    download="images/Resume/Resume (1).pdf"><FaFile /> Download
+                                <a className="buttons" href="images/Resume/Resume.pdf"
+                                    download="images/Resume/Resume.pdf"><FaFile /> Download
                                     CV</a>
                             </div>
                         </div>
