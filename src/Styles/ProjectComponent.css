@@ -138,6 +138,10 @@
         height: 18.8rem;
     }
 
+    .card:nth-child(2):hover {
+        height: 18.6rem;
+    }
+
     .card:first-child:hover .cardDescription, .card:nth-child(2):hover .cardDescription {
         transform: translateY(-12.8rem);
     }
