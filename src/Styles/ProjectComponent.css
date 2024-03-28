@@ -75,6 +75,10 @@
     height: 17.8rem;
 }
 
+.card:nth-child(2):hover {
+    height: 16.6rem;
+}
+
 .card:last-child:hover {
     height: 13.7rem;
 }
@@ -85,15 +89,15 @@
     opacity: 1;
 }
 
-.card:first-child:hover .cardDescription, .card:nth-child(2):hover .cardDescription {
+.card:first-child:hover .cardDescription {
     transform: translateY(-11.8rem);
     opacity: 1;
 }
-/* 
+
 .card:nth-child(2):hover .cardDescription {
-    transform: translateY(-12.8rem);
+    transform: translateY(-10.8rem);
     opacity: 1;
-} */
+}
 
 .card:last-child:hover .cardDescription {
     transform: translateY(-7.5rem);
