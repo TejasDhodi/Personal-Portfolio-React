@@ -33,6 +33,7 @@ const AboutComponent = () => {
                                     download="images/Resume/Resume.pdf"><FaFile /> Download
                                     CV</a>
                             </div>
+                            
                         </div>
                     </div>
 

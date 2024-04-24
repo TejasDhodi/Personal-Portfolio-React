@@ -75,7 +75,7 @@
     height: 17.8rem;
 }
 
-.card:nth-child(2):hover {
+.card:nth-child(3):hover {
     height: 16.6rem;
 }
 
@@ -94,7 +94,7 @@
     opacity: 1;
 }
 
-.card:nth-child(2):hover .cardDescription {
+.card:nth-child(3):hover .cardDescription {
     transform: translateY(-10.8rem);
     opacity: 1;
 }
@@ -138,11 +138,11 @@
         height: 18.8rem;
     }
 
-    .card:nth-child(2):hover {
+    .card:nth-child(3):hover {
         height: 18.6rem;
     }
 
-    .card:first-child:hover .cardDescription, .card:nth-child(2):hover .cardDescription {
+    .card:first-child:hover .cardDescription, .card:nth-child(3):hover .cardDescription {
         transform: translateY(-12.8rem);
     }
 }

@@ -12,7 +12,7 @@ const FooterComponent = () => {
                 <div class="socialIcons">
                     {
                         socialIcons.map((elem, index) => (
-                            elem.icon
+                            <a href={elem.link} className={elem.class} key={index}>{elem.icon}</a>
                         ))
                     }
                 </div>

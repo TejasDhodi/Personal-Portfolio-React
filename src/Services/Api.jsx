@@ -2,21 +2,31 @@ import { FaPhoneVolume, FaEnvelope, FaLocationArrow, FaInstagram, FaLinkedin, Fa
 
 export const projectDetails = [
     {
+        img: "https://media.istockphoto.com/id/1303502055/photo/woman-consulting-the-restaurant-menu-with-qr-code.webp?s=2048x2048&w=is&k=20&c=DOC04wAdBFzsiP2G3FW0KIlEt7FSBc7X0eHsWtdinuU=",
+        title: "Restaurant Management Web Application With Admin Panel",
+        frontend: "Front-End : HTML, CSS, JavaScript",
+        backend: "Back-End : Node.js and Express.js",
+        library: "Library : React.js, Redux Toolkit",
+        database: "Database : MongoDB",
+        live: "https://blogging-web-application-ten.vercel.app/",
+        githhub: "https://github.com/TejasDhodi/Blogging-Web-Applicatioon.git"
+    },
+    {
         img : "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
         title: "Blogging WebApplication",
         frontend: "Front-End : HTML, CSS, JavaScript",
         backend: "Back-End : Node.js and Express.js",
         library: "Library : React.js",
         database: "Database : MongoDB",
-        live: "https://blogging-web-application-ten.vercel.app/",
-        githhub: "https://github.com/TejasDhodi/Blogging-Web-Applicatioon.git"
+        live: "https://personal-scan-the-menu.vercel.app/",
+        githhub: "https://github.com/TejasDhodi/Personal-Scan-The-Menu.git"
     },
     {
         img : "https://images.unsplash.com/photo-1610484826917-0f101a7bf7f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGUlMjBsZWFybmluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
         title: "E-Learning Educational WebApplication",
         frontend: "Front-End : HTML, CSS, JavaScript",
         backend: "Back-End : Node.js and Express.js",
-        library: "Library : React.js",
+        library: "Library : React.js, Redux Toolkit",
         database: "Database : MongoDB",
         live: "https://e-learning-webapp.vercel.app/",
         githhub: "https://github.com/TejasDhodi/E-Learning-Web-Application.git"
