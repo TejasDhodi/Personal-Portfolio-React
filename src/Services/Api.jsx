@@ -8,8 +8,8 @@ export const projectDetails = [
         backend: "Back-End : Node.js and Express.js",
         library: "Library : React.js, Redux Toolkit",
         database: "Database : MongoDB",
-        live: "https://blogging-web-application-ten.vercel.app/",
-        githhub: "https://github.com/TejasDhodi/Blogging-Web-Applicatioon.git"
+        live: "https://personal-scan-the-menu.vercel.app/",
+        githhub: "https://github.com/TejasDhodi/Personal-Scan-The-Menu.git"
     },
     {
         img : "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D",
@@ -18,8 +18,8 @@ export const projectDetails = [
         backend: "Back-End : Node.js and Express.js",
         library: "Library : React.js",
         database: "Database : MongoDB",
-        live: "https://personal-scan-the-menu.vercel.app/",
-        githhub: "https://github.com/TejasDhodi/Personal-Scan-The-Menu.git"
+        live: "https://blogging-web-application-ten.vercel.app/",
+        githhub: "https://github.com/TejasDhodi/Blogging-Web-Applicatioon.git"
     },
     {
         img : "https://images.unsplash.com/photo-1610484826917-0f101a7bf7f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGUlMjBsZWFybmluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -30,6 +30,16 @@ export const projectDetails = [
         database: "Database : MongoDB",
         live: "https://e-learning-webapp.vercel.app/",
         githhub: "https://github.com/TejasDhodi/E-Learning-Web-Application.git"
+    },
+    {
+        img : "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        title: "Employee Management System",
+        frontend: "Front-End : HTML, CSS, JavaScript",
+        backend: "Back-End : Node.js and Express.js",
+        library: "Library : React.js, Recharts",
+        database: "Database : MongoDB",
+        live: "https://hrm-beta.vercel.app/",
+        githhub: "https://github.com/TejasDhodi/RKS-Cloud-Assignment.git"
     },
     {
         img : "https://media.istockphoto.com/id/1176320050/photo/weather-forecast-on-a-digital-display-7-day-dashboard-3d-illustration.webp?b=1&s=170667a&w=0&k=20&c=H5jbreqseczNxXieF9e0R8O5FHeY0ylKgEX_RKFenGo=",
@@ -69,6 +79,16 @@ export const projectDetails = [
 
 export const certificateDetails = [
     {
+        img: "images/Certificates/Megahack.jpg",
+        title: "2nd Runner Up in 24Hrs National Level Hackathon",
+        description: "National Level Hackathon"
+    },
+    {
+        img: "images/Certificates/Webathon.jpg",
+        title: "1st Rank In Inter College Frontend Development Hackathon",
+        description: "National Level Hackathon"
+    },
+    {
         img: "images/Certificates/2thcyc (2).jpg",
         title: "Certificate From Google Developer Group",
         description: "Note Taking App Using JavaScript and ReactJs"
@@ -97,16 +117,6 @@ export const certificateDetails = [
         img: "images/Certificates/LUERJSMAY12356_page-0001.jpg",
         title: "Certificate From LetsUpgrade",
         description: "ReactJs Bootcamp"
-    },
-    {
-        img: "images/Certificates/Hackathon_page-0001.jpg",
-        title: "Certificate of Hackathon Participation",
-        description: "National Level Hackathon"
-    },
-    {
-        img: "images/Certificates/Web Design_page-0001.jpg",
-        title: "Certificate of Hackathon Participation",
-        description: "National Level Hackathon"
     },
 ]
 

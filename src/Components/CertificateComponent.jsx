@@ -1,14 +1,49 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { certificateDetails } from '../Services/Api';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import Slider from 'react-slick'
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import '../Styles/CertificateComponent.css'
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 
 const CertificateComponent = () => {
+
+    const [slidesToShow, setSlidesToShow] = useState(3);
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        slidesToShow: slidesToShow,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 700,
+        autoplaySpeed: 3000,
+        cssEase: "linear"
+
+    };
+
+    useEffect(() => {
+
+        const handleResize = () => {
+            if (window.innerWidth < 481) {
+                setSlidesToShow(1);
+            } else if (window.innerWidth < 881) {
+                setSlidesToShow(2);
+            } else {
+                setSlidesToShow(3);
+            }
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        handleResize();
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+
+    }, []);
+
     return (
         <>
             <section id="certificatesSection">
@@ -16,49 +51,26 @@ const CertificateComponent = () => {
                     <h1 className="titles">Cetrificate And Achievements</h1>
                 </div>
 
-                <Swiper
-                    modules={[Navigation, Pagination, Scrollbar, A11y]}
-                    spaceBetween={220}
-                    slidesPerView={3}
-                    navigation
-                    pagination={{ clickable: true }}
-                    scrollbar={{ draggable: true }}
-                    breakpoints={{
-                        320: {
-                            slidesPerView: 1,
-                            spaceBetween: 20
-                        },
-                        550: {
-                            slidesPerView: 2,
-                            spaceBetween: 30
-                        },
-                        1024: {
-                            slidesPerView: 3,
-                            spaceBetween: 50
-                        }
-                    }}
-                >
+                <Slider {...settings}>
                     {
                         certificateDetails.map((elem, index) => {
                             const { img, title, description } = elem;
                             return (
-                                <SwiperSlide key={index}>
-                                    <div className="certificateCard">
-                                        <div className="certificateImage">
-                                            <img src={img} alt={title} className="certificateImg" />
-                                        </div>
-                                        <div className="certificateInfo">
-                                            <h2>{title}</h2>
-                                            <p>{description}</p>
-                                        </div>
+                                <div className="certificateCard" key={index}>
+                                    <div className="certificateImage">
+                                        <img src={img} alt={title} className="certificateImg" />
                                     </div>
+                                    <div className="certificateInfo">
+                                        <h2>{title}</h2>
+                                        <p>{description}</p>
+                                    </div>
+                                </div>
 
-                                </SwiperSlide>
                             )
                         })
                     }
+                </Slider>
 
-                </Swiper>
             </section>
 
         </>

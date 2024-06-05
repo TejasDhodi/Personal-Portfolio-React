@@ -14,9 +14,15 @@
     padding: 1rem;
 }
 
-.certificateImg {
+.certificateImage {
     height: 15rem;
-    width: 27rem;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.certificateImage img{
+    height: 100%;
+    width: 100%;
     border-radius: 1px solid;
 }
 
@@ -39,6 +45,20 @@
         width: 24rem;
     }
 
+    .certificateInfo h2 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .certificateImg {
+        width: 15rem;
+    }
+
+    .certificateInfo {
+        margin: 0 auto 2rem;
+        width: 70%;
+    }
     .certificateInfo h2 {
         font-size: 1rem;
     }
@@ -71,7 +91,11 @@
         width: 19.8rem;
     }
 
-    .certificateImg {
+    .certificateImage {
         width: 18rem;
+    }
+
+    .certificateImage img {
+        width: 100%;
     }
 }

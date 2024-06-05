@@ -94,3 +94,11 @@
         height: 25rem;
     }
 }
+
+@media screen and (max-width: 350px) {
+
+    .aboutImg {
+        width: 18rem;
+        height: 25rem;
+    }
+}

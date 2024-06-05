@@ -16,7 +16,7 @@
 .card {
     margin-top: 6.3rem;
     width: 20rem;
-    height: 9.3rem;
+    height: 9rem;
     padding: 1.2rem;
     position: relative;
     border-radius: 12px;
@@ -72,11 +72,15 @@
 }
 
 .card:first-child:hover {
-    height: 17.8rem;
+    height: 17rem;
 }
 
 .card:nth-child(3):hover {
     height: 16.6rem;
+}
+
+.card:nth-child(4):hover {
+    height: 15.6rem;
 }
 
 .card:last-child:hover {
@@ -90,12 +94,17 @@
 }
 
 .card:first-child:hover .cardDescription {
-    transform: translateY(-11.8rem);
+    transform: translateY(-11rem);
     opacity: 1;
 }
 
 .card:nth-child(3):hover .cardDescription {
     transform: translateY(-10.8rem);
+    opacity: 1;
+}
+
+.card:nth-child(4):hover .cardDescription {
+    transform: translateY(-9.8rem);
     opacity: 1;
 }
 
@@ -119,30 +128,67 @@
 
 @media screen and (max-width:1024px) {
     .card {
-        width: 20rem;
-    }
-}
-
-@media screen and (max-width:835px) {
-    .card {
-        width: 18rem;
+        width: 40%;
     }
 }
 
 @media screen and (max-width:769px) {
+
+    .card:first-child:hover {
+        height: 21rem;
+    }
+
+    .card:nth-child(2):hover {
+        height: 17.5rem;
+    }
+    .card:nth-child(3):hover {
+        height: 19.5rem;
+    }
+
+    .card:nth-child(4):hover {
+        height: 18rem;
+    }
+
+    .card:first-child:hover .cardDescription {
+        transform: translateY(-14.9rem);
+    }
+
+    .card:nth-child(2):hover .cardDescription {
+        transform: translateY(-11.5rem);
+    }
+
+    .card:nth-child(3):hover .cardDescription {
+        transform: translateY(-14rem);
+    }
+
+    .card:nth-child(4):hover .cardDescription {
+        transform: translateY(-12rem);
+    }
+}
+
+@media screen and (max-width:481px) {
     .card {
-        width: 16rem;
+        width: 70%;
     }
 
     .card:first-child:hover {
-        height: 18.8rem;
+        height: 17.5rem;
     }
 
-    .card:nth-child(3):hover {
-        height: 18.6rem;
+    
+    .card:first-child:hover .cardDescription {
+        transform: translateY(-11.4rem);
+    }
+}
+
+@media screen and (max-width:481px) {
+
+    .card:first-child:hover {
+        height: 21rem;
     }
 
-    .card:first-child:hover .cardDescription, .card:nth-child(3):hover .cardDescription {
-        transform: translateY(-12.8rem);
+    
+    .card:first-child:hover .cardDescription {
+        transform: translateY(-15rem);
     }
 }

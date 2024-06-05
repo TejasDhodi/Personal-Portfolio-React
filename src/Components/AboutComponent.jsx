@@ -29,8 +29,8 @@ const AboutComponent = () => {
                             </ul>
 
                             <div className="resumeBtn">
-                                <a className="buttons" href="images/Resume/Resume.pdf"
-                                    download="images/Resume/Resume.pdf"><FaFile /> Download
+                                <a className="buttons" href="images/Resume/Resume (1).pdf"
+                                    download="images/Resume/Resume (1).pdf"><FaFile /> Download
                                     CV</a>
                             </div>
                             
@@ -38,7 +38,8 @@ const AboutComponent = () => {
                     </div>
 
                     <div className="aboutImg">
-                        <img src="images/Self.jpg" alt="" />
+                        {/* <img src="images/Self.jpg" alt="" /> */}
+                        <img src="images/Self.jpeg" alt="" />
                     </div>
                 </div>
             </section>
